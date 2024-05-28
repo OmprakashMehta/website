@@ -1,0 +1,780 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* this is header section.... */
+/* this is header section.... */
+/* this is header section.... */
+
+#header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  padding: 10px 50px;
+  z-index: 999;
+  background-color: #ffffff;
+  /* backdrop-filter: blur(100px); */
+}
+
+#header .right-box ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+#header ul a:nth-child(1) {
+  text-decoration: underline;
+}
+#header li {
+  list-style: none;
+  font-family: "Inter";
+  font-weight: 500;
+  font-size: 14px;
+  color: #5e5e5e;
+}
+#header .title {
+  color: #572ac8;
+  font-family: "Jockey One";
+  font-size: 25px;
+  font-weight: 400;
+}
+#header span {
+  border: 1px solid #9b9b9b;
+  border-radius: 20px;
+  padding: 9px 20px;
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 14px;
+}
+#header .search-box {
+  border: 1px solid #9b9b9b;
+  border-radius: 20px;
+  padding: 10px;
+  width: 40%;
+  background: transparent;
+}
+#header .search-box input[type="search"] {
+  border: none;
+  outline: none;
+  width: 90%;
+  background: transparent;
+}
+#header .header-btn {
+  border: 1.33px solid #5e5e5e;
+  color: #5e5e5e;
+  font-weight: 500;
+  font-size: 14px;
+  padding: 10px 30px;
+  border-radius: 6px;
+  font-family: "Inter";
+  background-color: transparent;
+}
+a {
+  all: unset;
+  cursor: pointer;
+}
+button {
+  cursor: pointer;
+}
+/* this is hero section.... */
+/* this is hero section.... */
+/* this is hero section.... */
+
+#hero {
+  display: flex;
+  padding: 70px 20px 70px 70px;
+}
+#hero .title-box {
+  display: flex;
+  flex-direction: column;
+  padding-top: 100px;
+  flex: 0.5;
+}
+#hero .title {
+  font-family: "Inter";
+  font-weight: 500;
+  padding: 0 0 50px 0;
+  font-size: 32px;
+  color: #020202;
+  width: 60%;
+}
+#hero .content-box {
+  border: 1px solid #d9d9d9;
+  width: 80%;
+  border-radius: 10px;
+  padding: 20px 30px 30px 15px;
+}
+#hero h3 {
+  font-family: "Inter";
+  font-weight: 500;
+  font-size: 20px;
+  color: #545454;
+}
+#hero .content {
+  padding: 10px 0 0 20px;
+}
+#hero .box-bg {
+  background-color: #f5f5f5;
+  border-radius: 8px;
+  padding: 10px;
+  align-items: center;
+}
+#hero .box-1 h4 {
+  font-family: "Inter";
+  font-size: 12px;
+  font-weight: 400;
+  color: #212121;
+}
+#hero .box-2 h4 {
+  font-family: "Inter";
+  text-align: center;
+  font-size: 14px;
+  font-weight: 400;
+  color: #212121;
+}
+#hero .content .img-icon {
+  width: 50px;
+  padding: 10px 40px;
+}
+#hero .content .box-1 img {
+  width: 50px;
+}
+#hero .box-1 {
+  display: flex;
+  gap: 10px;
+  margin: 15px 0;
+}
+#hero .box {
+  display: flex;
+  gap: 10px;
+}
+#hero .box-2 {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+#hero .hero-img {
+  display: flex;
+  flex: 0.5;
+  justify-content: center;
+  gap: 25px;
+  padding: 20px 20px 20px 0;
+}
+#hero .hero-img .img-box {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+#hero .hero-img .image1 {
+  width: 100%;
+  height: 328px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+#hero .hero-img .image2 {
+  width: 100%;
+  height: 236px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+/* ..... this is New and noteworthy section ....  */
+/* ..... this is New and noteworthy section ....  */
+/* ..... this is New and noteworthy section....  */
+
+#new .title {
+  font-family: "Inter";
+  font-weight: 600;
+  font-size: 36px;
+  text-align: center;
+  color: #000000;
+  padding: 45px;
+}
+#new .title-box {
+  display: flex;
+  text-align: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 0 50px;
+}
+#new .title-box .new_img {
+  height: 208px;
+  width: 250px;
+  border-radius: 8px;
+  object-fit: cover;
+}
+#new .title-box h4 {
+  font-family: "Inter";
+  font-weight: 600;
+  font-size: 14px;
+  padding: 20px;
+  text-align: center;
+  color: #000000;
+}
+#new .content-box img {
+  width: 100%;
+}
+
+/* ......this is Most booked services section..... */
+/* ......this is Most booked services section..... */
+/* ......this is Most booked services section..... */
+
+#booked .title {
+  font-family: "Inter";
+  font-weight: 600;
+  font-size: 36px;
+  text-align: center;
+  color: #000000;
+  padding: 45px;
+}
+#booked .service-box {
+  display: flex;
+  text-align: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 0 50px;
+}
+
+#booked .service-box .service-img {
+  height: 208px;
+  width: 250px;
+  border-radius: 8px;
+  object-fit: cover;
+}
+#booked .service-box h4 {
+  font-family: "Inter";
+  font-weight: 600;
+  font-size: 14px;
+  padding: 20px;
+  text-align: center;
+  color: #000000;
+}
+
+/* ......this is Appliances Section.....
+/* ......this is Appliances Section..... */
+/* ......this is Appliances Section..... */
+
+#item {
+  padding: 0 0 40px 0;
+}
+#item .title {
+  font-family: "Inter";
+  font-weight: 600;
+  font-size: 36px;
+  text-align: center;
+  color: #000000;
+  padding: 45px 0 15px 0;
+}
+#item .sub-title {
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 28px;
+  text-align: center;
+  color: #727272;
+  padding: 0 0 40px 0;
+}
+#item .item-box {
+  display: flex;
+  /* gap: 17px; */
+  text-align: center;
+  justify-content: space-around;
+  padding: 0 50px;
+}
+#item .item-box .item-img {
+  height: 244px;
+  width: 350px;
+  border-radius: 8px;
+  object-fit: cover;
+}
+#item .item-box h4 {
+  font-family: "Inter";
+  font-weight: 600;
+  font-size: 14px;
+  padding: 20px 0 10px 0;
+  text-align: center;
+  color: #000000;
+}
+#item .item-box h6 {
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 14px;
+  text-align: center;
+  color: #212121;
+}
+
+/* -------this is Spare Parts Section------- */
+/* -------this is Spare Parts Section------- */
+/* -------this is Spare Parts Section------- */
+
+#parts {
+  padding: 0 0 40px 0;
+}
+#parts .title {
+  font-family: "Inter";
+  font-weight: 600;
+  font-size: 36px;
+  text-align: center;
+  color: #000000;
+  padding: 45px 0 15px 0;
+}
+#parts .sub-title {
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 28px;
+  text-align: center;
+  color: #727272;
+  padding: 0 0 40px 0;
+}
+#parts .parts-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 0 50px;
+  margin-bottom: 20px;
+}
+#parts .parts-box .parts-img {
+  height: 184px;
+  width: 280px;
+  border-radius: 8px;
+  object-fit: cover;
+}
+#parts .parts-box .star {
+  padding: 10px 0;
+}
+.bi-star-fill {
+  color: #0075ff;
+}
+.star i:nth-child(5) {
+  color: #9c9c9c;
+}
+#parts .parts-box h4 {
+  font-family: "Inter";
+  font-weight: 600;
+  font-size: 14px;
+  padding: 5px 0 10px 0;
+  color: #262626;
+}
+#parts .parts-box .price {
+  font-family: "Inter";
+  font-weight: 700;
+  font-size: 13px;
+  color: #fd661f;
+}
+#parts .parts-box .discount {
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 13px;
+  color: #9795b5;
+}
+#ads img {
+  width: 100%;
+  height: 60vh;
+  object-fit: fill;
+}
+hr {
+  border: 2px solid rgba(217, 217, 217, 0.3);
+}
+/* -------Testimonial Section------- */
+/* -------Testimonial Section------- */
+/* -------Testimonial Section------- */
+#feedback {
+  padding: 20px 30px 50px 30px;
+}
+#feedback .title {
+  font-family: "Inter";
+  font-weight: 600;
+  font-size: 36px;
+  text-align: center;
+  color: #000000;
+  padding: 45px 0 15px 0;
+}
+#feedback .sub-title {
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 28px;
+  text-align: center;
+  color: #727272;
+  padding: 0 0 40px 0;
+}
+#feedback .feedback-box {
+  display: flex;
+  gap: 20px;
+  padding: 40px 60px;
+  justify-content: space-around;
+}
+#feedback .box {
+  border: 1px solid #f1f1f3;
+  border-radius: 10px;
+  width: calc(100% / 3);
+}
+#feedback .box .div1 {
+  background-color: #fcfcfd;
+  display: flex;
+  padding: 15px 25px;
+  gap: 5px;
+}
+#feedback .box .name {
+  padding: 10px;
+}
+#feedback .feedback-box img {
+  width: 60px;
+  height: 60px;
+  border-radius: 8px;
+  object-fit: cover;
+}
+#feedback .feedback-box h6 {
+  font-family: "Be Vietnam Pro";
+  font-weight: 600;
+  font-size: 18px;
+  color: #333333;
+  margin-bottom: 5px;
+}
+#feedback .feedback-box p {
+  font-family: "Be Vietnam Pro";
+  font-weight: 400;
+  font-size: 18px;
+  color: #4c4c4d;
+  padding: 10px 25px 30px 25px;
+}
+/* .......Footer Section...... */
+/* .......Footer Section...... */
+/* .......Footer Section...... */
+
+#footer .footer-top {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 10px;
+  padding: 40px 40px;
+}
+#footer .title {
+  width: 30%;
+}
+#footer .title p {
+  padding: 30px 0;
+  font-family: "DM Sans";
+  font-weight: 400;
+  font-size: 18px;
+  color: #9795b5;
+}
+#footer .div-s {
+  display: flex;
+}
+#footer .box h5 {
+  font-family: "Be Vietnam Pro";
+  font-weight: 500;
+  font-size: 20px;
+  color: #0075ff;
+  padding-left: 31px;
+}
+#footer .icons {
+  display: flex;
+  gap: 20px;
+  padding: 15px 0;
+}
+#footer .icons .icon {
+  font-size: 20px;
+  border-radius: 10px;
+  padding: 10px;
+  background-color: #e7e6f2;
+}
+#footer li {
+  list-style: none;
+  font-family: "Be Vietnam Pro";
+  font-weight: 500;
+  font-size: 16px;
+  color: #9d9d9d;
+  display: flex;
+  align-items: center;
+}
+#footer .address h5 {
+  font-family: "Inter";
+  font-weight: 500;
+  font-size: 20px;
+  color: #0075ff;
+}
+
+#footer li:hover {
+  color: #0075ff;
+  font-weight: 500;
+  font-size: 16px;
+}
+#footer li .arrow {
+  visibility: hidden;
+  font-size: 30px;
+}
+#footer li:hover .arrow {
+  visibility: visible;
+}
+#footer .footer-bottom {
+  text-align: center;
+  padding: 10px;
+}
+#footer .footer-bottom p {
+  font-family: "DM Sans";
+  font-weight: 400;
+  font-size: 18px;
+  color: #767494;
+}
+#footer .footer-bottom span {
+  font-family: "DM Sans";
+  font-weight: 400;
+  font-size: 18px;
+  color: #adabc3;
+}
+
+/* ..#*.#..Media query start...#.#.. */
+/* ..#*.#...Media query start..#..#. */
+/* ..#*.#...Media query start..#..#. */
+
+@media screen and (max-width: 768px) {
+  /* .....header section... */
+  /* .....header section... */
+
+  #header {
+    gap: 15px;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px 20px;
+  }
+  #header .title {
+    font-size: 18px;
+  }
+  #header .right-box {
+    display: none;
+  }
+  #header .search-box {
+    width: 89%;
+  }
+  #header span {
+    display: none;
+  }
+
+  /* .....hero section... */
+  /* .....hero section... */
+  /* .....hero section... */
+
+  #hero {
+    padding: 10px;
+    flex-direction: column;
+  }
+  #hero .title {
+    width: 100%;
+    padding: 30px 0 20px 0;
+    font-size: 28px;
+  }
+  #hero .title-box {
+    padding: 0;
+  }
+  #hero .content-box {
+    border: none;
+    width: 90%;
+    padding: 10px;
+  }
+  #hero .content .img-icon {
+    width: 40px;
+    padding: 10px 18px;
+  }
+  #hero h3 {
+    display: none;
+  }
+  #hero .content {
+    padding: 0;
+  }
+  #hero .hero-img {
+    display: none;
+  }
+
+  /* ........ this is New and noteworthy section........ */
+  /* ........ this is New and noteworthy section........ */
+  /* ........ this is New and noteworthy section........ */
+
+  #new .title {
+    font-size: 20px;
+    padding: 20px;
+  }
+  #new .title-box {
+    gap: 7px;
+    padding: 10px;
+  }
+  #new .title-box .new_img {
+    height: 122px;
+    width: 144px;
+  }
+  #new .title-box h4 {
+    padding: 5px;
+    color: #3d3d3d;
+  }
+
+  /* ....this is Most booked services section.... */
+  /* ....this is Most booked services section.... */
+  /* ....this is Most booked services section.... */
+  /* ....this is Most booked services section.... */
+  /* ....this is Most booked services section.... */
+
+  #booked .title {
+    font-size: 20px;
+    padding: 20px;
+  }
+  #booked .service-box {
+    gap: 7px;
+    padding: 10px;
+  }
+  #booked .service-box .service-img {
+    height: 122px;
+    width: 144px;
+  }
+  #booked .service-box h4 {
+    padding: 5px;
+    color: #3d3d3d;
+    font-size: 12px;
+  }
+
+  /* ......  Appliances Section........ */
+  /* ......  Appliances Section........ */
+  /* ......  Appliances Section........ */
+
+  #item {
+    padding: 0 0 40px 0;
+  }
+  #item .title {
+    font-size: 20px;
+    text-align: center;
+    padding: 30px 0 15px 0;
+  }
+  #item .sub-title {
+    font-size: 18px;
+    text-align: center;
+    padding: 0 0 30px 0;
+  }
+  #item .item-box {
+    display: flex;
+    gap: 17px;
+    overflow: hidden;
+    padding: 0 35px;
+  }
+  #item .item-box .item-img {
+    height: 186px;
+    width: 160px;
+  }
+  #item .item-box h4 {
+    padding: 10px 0;
+    color: #3d3d3d;
+  }
+  #item .item-box h6 {
+    color: #212121;
+  }
+
+  /* ------- Spare Parts Section------- */
+  /* -------Spare Parts Section------- */
+  /* ------ Spare Parts Section------- */
+
+  #parts {
+    padding: 0 0 40px 0;
+  }
+  #parts .title {
+    font-size: 20px;
+    padding: 30px 0 15px 0;
+  }
+  #parts .sub-title {
+    font-size: 18px;
+  }
+  #parts .parts-box {
+    display: flex;
+    gap: 15px;
+    overflow: hidden;
+    padding: 0 35px;
+  }
+  #parts .parts-box .parts-img {
+    height: 91px;
+    width: 167px;
+  }
+
+  #parts .parts-box h4 {
+    padding: 5px 0 10px 0;
+  }
+  #ads img {
+    width: 100%;
+    height: 140px;
+    object-fit: fill;
+  }
+
+  /* -------Testimonial Section------- */
+  /* -------Testimonial Section------- */
+  /* -------Testimonial Section------- */
+
+  #feedback {
+    padding: 20px 30px 50px 30px;
+  }
+  #feedback .title {
+    font-size: 20px;
+    padding: 30px 0 15px 0;
+  }
+  #feedback .sub-title {
+    font-size: 18px;
+    padding: 0 0 40px 0;
+  }
+  #feedback .feedback-box {
+    display: flex;
+    gap: 20px;
+    padding: 0;
+    justify-content: space-around;
+    overflow: hidden;
+  }
+  #feedback .box {
+    border: 1px solid #f1f1f3;
+    border-radius: 10px;
+    width: 80%;
+  }
+  #feedback .box .div1 {
+    background-color: #fcfcfd;
+    display: flex;
+    /* flex-wrap: wrap; */
+    flex-direction: row;
+    padding: 15px 25px;
+    gap: 5px;
+  }
+  #feedback .box .name {
+    padding: 10px;
+  }
+  #feedback .feedback-box img {
+    width: 60px;
+    height: 60px;
+    border-radius: 8px;
+    object-fit: cover;
+  }
+
+  #feedback .feedback-box p {
+    font-size: 14px;
+    width: 200px;
+    padding: 10px 25px 30px 25px;
+  }
+
+  /* -----Footer Section----------- */
+  /* -----Footer Section----------- */
+  /* -----Footer Section----------- */
+  #footer .footer-top {
+    padding: 0;
+  }
+  #footer .title {
+    width: 100%;
+    padding: 20px;
+  }
+  #footer .title p {
+    padding: 40px 0;
+  }
+
+  #footer .icons .icon {
+    gap: 16px;
+  }
+  #footer .Quick-link {
+    padding: 0 14px;
+  }
+  #footer .box h5 {
+    padding: 15px 0 10px 27px;
+  }
+}
